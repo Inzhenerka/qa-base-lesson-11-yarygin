@@ -1,4 +1,5 @@
 import io.restassured.RestAssured;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -6,6 +7,7 @@ import static org.hamcrest.Matchers.*;
 
 class ApiTests {
 
+    @DisplayName("Получение данных пользователя")
     @Test
     void getUserTestuser2() {
         RestAssured.baseURI = "http://qa-stand-login.inzhenerka.tech/api";
@@ -19,6 +21,7 @@ class ApiTests {
                 .body("username", equalTo("testuser2"));
     }
 
+    @DisplayName("Admin: Получение данных")
     @Test
     void getAdminUser() {
         RestAssured.baseURI = "http://qa-stand-login.inzhenerka.tech/api";
@@ -32,6 +35,7 @@ class ApiTests {
                 .body("username", equalTo("admin"));
     }
 
+    @DisplayName("Обновление данных пользователя")
     @Test
     void updateUserTestuser2() {
         String requestBody = """
@@ -58,6 +62,7 @@ class ApiTests {
                 .statusCode(200); // Убедитесь, что сервер поддерживает обновление данных и корректно обрабатывает PUT запросы
     }
 
+    @DisplayName("Создание нового пользователя")
     @Test
     void createNewUser() {
         String requestBody = """
