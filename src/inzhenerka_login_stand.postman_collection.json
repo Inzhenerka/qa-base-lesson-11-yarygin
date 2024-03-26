@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "4fea2f44-4f38-4757-bc49-5db885e48c0f",
+		"name": "Inzhenerka Login Stand",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4180257",
+		"_collection_link": "https://galactic-astronaut-271462.postman.co/workspace/My-Workspace~164d44de-05a9-4f5b-8dad-fc0d1e53cd61/collection/4180257-4fea2f44-4f38-4757-bc49-5db885e48c0f?action=share&source=collection_link&creator=4180257"
+	},
+	"item": [
+		{
+			"name": "GET USER",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://qa-stand-login.inzhenerka.tech/api/users/testuser2?API_KEY=API_KEY123",
+					"protocol": "http",
+					"host": [
+						"qa-stand-login",
+						"inzhenerka",
+						"tech"
+					],
+					"path": [
+						"api",
+						"users",
+						"testuser2"
+					],
+					"query": [
+						{
+							"key": "API_KEY",
+							"value": "API_KEY123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ADMIN USER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://qa-stand-login.inzhenerka.tech/api/users/admin?API_KEY=API_KEY123",
+					"protocol": "http",
+					"host": [
+						"qa-stand-login",
+						"inzhenerka",
+						"tech"
+					],
+					"path": [
+						"api",
+						"users",
+						"admin"
+					],
+					"query": [
+						{
+							"key": "API_KEY",
+							"value": "API_KEY123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE USER",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"admin\": false,\n\"age\": 45,\n\"description\": \"Привет! Я - счастливый студент ИнженеркаТех и я сегодня изучил REST API\",\n\"jobtitle\": \"Старший Тестировщик\",\n\"name\": \"Владимир Тестировович\",\n\"password\": \"password123\",\n\"username\": \"testuser2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://qa-stand-login.inzhenerka.tech/api/users/testuser2?API_KEY=API_KEY123",
+					"protocol": "http",
+					"host": [
+						"qa-stand-login",
+						"inzhenerka",
+						"tech"
+					],
+					"path": [
+						"api",
+						"users",
+						"testuser2"
+					],
+					"query": [
+						{
+							"key": "API_KEY",
+							"value": "API_KEY123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE NEW USER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"admin\": false,\n\"age\": 45,\n\"description\": \"Привет! Я - студент ИнженеркаТех\",\n\"jobtitle\": \"Старший Тестировщик\",\n\"name\": \"Владимир Тестировович\",\n\"password\": \"password123\",\n\"username\": \"testuser2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://qa-stand-login.inzhenerka.tech/api/users?API_KEY=API_KEY123",
+					"protocol": "http",
+					"host": [
+						"qa-stand-login",
+						"inzhenerka",
+						"tech"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "API_KEY",
+							"value": "API_KEY123"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
