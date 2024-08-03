@@ -4,44 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4bba0f6-08f7-4e42-a033-7dfadabca78d" name="Changes" comment="" />
+    <list default="true" id="1245b516-e92b-4ad4-b05f-faaa3cc7817e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2eDZXglRR4bdHur3KjFlXoCukj4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2k9JvmfsyfzxTFTQiPzhvdIUxdg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-base-lesson-11-yarygin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4bba0f6-08f7-4e42-a033-7dfadabca78d" name="Changes" comment="" />
-      <created>1711441151357</created>
+      <changelist id="1245b516-e92b-4ad4-b05f-faaa3cc7817e" name="Changes" comment="" />
+      <created>1722690092618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1711441151357</updated>
+      <updated>1722690092618</updated>
     </task>
     <servers />
   </component>
